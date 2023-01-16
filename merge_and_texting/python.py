@@ -8,7 +8,7 @@ import urllib.request
 def merging(id):
     # Open the image
     urllib.request.urlretrieve(
-    'https://media.geeksforgeeks.org/wp-content/uploads/20210318103632/gfg-300x300.png',
+    'https://eweb.pythonanywhere.com/media/wallpapers/background.jpg',
     "background.png")
     image1 = Image.open('background.png')
     image2 = Image.open(r"qr_codes/qr_code"+str(id)+".jpg")
